@@ -94,8 +94,10 @@ public class Menu {
 				}
 				break;
 			case 3: 
-				System.out.println("You are in Case 3");
-				return;
+				System.exit(0);
+			
+			default:
+				System.out.println("Invalid choice!!! Please make a valid choice. \n\n");
 			
 			}
 			
